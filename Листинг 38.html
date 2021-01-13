@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Графические изображения</title>
+<script language="JavaScript">
+<!--
+img = new Array()
+img[0
+] = "1.jpg"
+img[1] = "2.jpg"
+img[2] = "3.jpg"
+var num=0
+function slideshow()
+{
+num=num+1
+if (num==3)
+{
+num=0
+}
+document.pic.src=img[num]
+}
+//––>
+</script>
+</head>
+<body>
+<center>
+<img src="2.jpg" name="pic"
+width=720 height=480 border=0>
+<p>
+<a href="#" onClick="slideshow()">
+Щелкните,чтобы увидеть следующую картинку</a>
+</center>
+</body>
+</html>
